@@ -10,9 +10,9 @@ import (
 )
 
 const (
-	deadTime          = 10 * time.Second // 2 x heartbeat
-	reapPeriod        = 10 * time.Minute
-	reapJitterSecs    = 30
+	deadTime          = 1 * time.Second // 2 x heartbeat
+	reapPeriod        = 1 * time.Second
+	reapJitterSecs    = 1
 	requeueKeysPerJob = 4
 )
 
